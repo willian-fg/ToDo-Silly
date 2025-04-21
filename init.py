@@ -1,9 +1,23 @@
-import flat as ft
+import flet 
+from flet import(
+      Checkbox,
+      Column,
+      FloatingActionButton,
+      IconButton,
+      OutlinedButton,
+      Page,
+      Row,
+      Tab,
+      Text,
+      TextField,
+      #userControl,
+      colors,
+      icons,
+)
 
-class JanelaPrincipal:
-  def __init__(self, page: ft.Page):
-    self.page = page
-    self.page.bgcolor = ft.colors.WHITE
-    self.page.window_width = 350
-    
-    
+
+
+def main(page: Page):
+      pass
+
+flet.app(target=main)
